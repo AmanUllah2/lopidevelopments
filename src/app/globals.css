@@ -111,7 +111,7 @@
   }
 
   .btn-primary-1 {
-    @apply relative py-4 px-5 text-white bg-[#E85C60] border border-[#E85C60] hover:border-[#C4494E] rounded-xl font-semibold active:scale-105 transition-all duration-300 overflow-hidden;
+    @apply relative py-4 px-5 text-black hover:text-white bg-primary border border-primary hover:border-[#d5a7a7] rounded-xl font-semibold active:scale-105 transition-all duration-300 overflow-hidden;
   }
 
   .btn-primary-1:hover::after {
@@ -120,11 +120,11 @@
 
   .btn-primary-1::after {
     content: "";
-    @apply bg-[#C4494E] w-0 h-full rounded-xl block absolute top-0 left-0 transition-all duration-300;
+    @apply bg-[#e97f83] w-0 h-full rounded-xl block absolute top-0 left-0 transition-all duration-300;
   }
 
   .btn-primary-2 {
-    @apply relative py-3 px-5 text-[#E85C60] hover:text-white bg-[#FDEBEC] border border-[#E85C60] rounded-xl font-semibold active:scale-105 transition-all duration-300 overflow-hidden;
+    @apply relative py-3 px-5 text-primary hover:text-white bg-[#FDEBEC] border border-primary rounded-xl font-semibold active:scale-105 transition-all duration-300 overflow-hidden;
   }
 
   .btn-primary-2:hover::after {
@@ -133,7 +133,7 @@
 
   .btn-primary-2::after {
     content: "";
-    @apply bg-[#E85C60] w-0 h-full rounded-xl block absolute top-0 left-0 transition-all duration-300;
+    @apply bg-primary w-0 h-full rounded-xl block absolute top-0 left-0 transition-all duration-300;
   }
 
   .footer-link {

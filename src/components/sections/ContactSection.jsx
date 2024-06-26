@@ -229,7 +229,7 @@ const ContactSection = () => {
                             id="accept-terms"
                             name="accept-terms"
                             type="checkbox"
-                            className="h-5 w-5 rounded border-gray-600 text-[#248F97] focus:ring-[#248F97]"
+                            className="h-5 w-5 rounded border-gray-600 text-[#e97f83] focus:ring-[#e97f83]"
                           />
                         </div>
                         <div className="ml-3 text-sm leading-6">
