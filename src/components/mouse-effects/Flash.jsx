@@ -26,7 +26,7 @@ const Flash = () => {
     splatRadius: 0.0012,
   };
 
-  const customColors = [[0.2, 0.2, 0.2]];
+  const customColors = [[0.3, 0.3, 0.3]];
 
   const customPointer = Pointer();
 

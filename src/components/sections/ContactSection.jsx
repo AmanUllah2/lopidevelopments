@@ -97,7 +97,7 @@ const ContactSection = () => {
                     Give us a shout and we’ll get back to you at our earliest.
                   </p>
                 </div>
-                <div className="pt-10 mt-auto relative z-10">
+                <div className="pt-10 relative z-10">
                   <ul className="space-y-4">
                     <li>
                       <a
