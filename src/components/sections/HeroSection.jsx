@@ -89,7 +89,7 @@ const HeroSection = () => {
           </Magnetic>
         </div>
 
-        <div id="video" className="w-full h-full mt-0">
+        <div id="video" className="w-full h-full mt-0 relative z-20">
           <video
             poster="/assets/images/video-poster.jpg"
             className="h-full w-full hidden md:block opacity-0 video-1"
@@ -100,6 +100,7 @@ const HeroSection = () => {
             playsInline
             autoPlay
             muted
+            controls
           >
             <source src="/assets/videos/intro-video.mp4" type="video/mp4" />
           </video>
@@ -115,6 +116,7 @@ const HeroSection = () => {
             playsInline
             autoPlay
             muted
+            controls
           >
             <source src="/assets/videos/intro-video.mp4" type="video/mp4" />
           </video>

@@ -33,7 +33,7 @@ export default function ScreenLoader() {
               fill
               src="/assets/images/logo.png"
               alt="logo-1"
-              className="object-contain"
+              className="object-contain filter grayscale"
             />
           </span>
         </div>

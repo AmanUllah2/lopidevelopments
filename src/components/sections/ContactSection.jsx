@@ -9,6 +9,7 @@ import {
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import Select from "react-select";
+import Image from "next/image";
 
 const options = [
   { value: "MVP Development", label: "MVP Development" },
@@ -31,10 +32,10 @@ const customStyles = {
     padding: "0.5rem",
     borderRadius: "0.5rem",
     width: "100%",
-    // backgroundColor: "#DDDDDD",
-    border: state.isFocused ? "1px solid black" : "1px solid #DDDDDD",
+    backgroundColor: "#0E0C21",
+    border: state.isFocused ? "1px solid black" : "1px solid #496E80",
     outline: "none",
-    color: "#0E0C21",
+    color: "#496E80",
   }),
   valueContainer: (provided) => ({
     ...provided,
@@ -90,6 +91,12 @@ const ContactSection = () => {
             <div className="col">
               <div className="h-full flex flex-col">
                 <div>
+                  <Image
+                    height={120}
+                    width={120}
+                    src="/assets/images/s-icon-7.svg"
+                    className="mb-2"
+                  />
                   <h3 className="mb-6 font-clash-display font-medium text-3xl leading-[3.075rem] text-[2.5rem]">
                     Let's Collaborate
                   </h3>
@@ -101,28 +108,28 @@ const ContactSection = () => {
                   <ul className="space-y-4">
                     <li>
                       <a
-                        href="mailto:contact@aurorainsights.com"
+                        href="mailto:contact@lopidevelopments.com"
                         className="flex items-center gap-4 text-white hover:opacity-80"
                       >
                         <EnvelopeIcon className="w-6 h-6" />
-                        <span>contact@aurorainsights.com</span>
+                        <span>contact@lopidevelopments.com</span>
                       </a>
                     </li>
                     <li>
                       <a
-                        href="tel:+7802227601"
+                        href="tel:+923485421252"
                         className="flex items-center gap-4 text-white hover:opacity-80"
                       >
                         <PhoneIcon className="w-6 h-6" />
-                        <span>780-222-7601</span>
+                        <span>+92-348-542-1252</span>
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <div className="flex items-center gap-4 text-white">
                         <MapPinIcon className="w-6 h-6" />
                         <span>Alberta, Canada</span>
                       </div>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -140,7 +147,7 @@ const ContactSection = () => {
                         name="fullName"
                         id="fullName"
                         required
-                        className="p-3 rounded-lg w-full text-dark border-[#DDDDDD] focus:border-black focus:ring-0 focus:bg-white placeholder:text-[#505050]"
+                        className="p-3 rounded-lg w-full bg-dark text-white border-gray-600 focus:border-gray-700 focus:ring-0 placeholder:text-[#505050]"
                         placeholder="Enter your name..."
                       />
                     </div>
@@ -153,7 +160,7 @@ const ContactSection = () => {
                         name="email"
                         id="email"
                         required
-                        className="p-3 rounded-lg w-full text-dark border-[#DDDDDD] focus:border-black focus:ring-0 focus:bg-white placeholder:text-[#505050]"
+                        className="p-3 rounded-lg w-full bg-dark text-white border-gray-600 focus:border-gray-700 focus:ring-0 placeholder:text-[#505050]"
                         placeholder="Enter your email..."
                       />
                     </div>
@@ -166,7 +173,7 @@ const ContactSection = () => {
                         name="phoneNumber"
                         id="phoneNumber"
                         required
-                        className="p-3 rounded-lg w-full text-dark border-[#DDDDDD] focus:border-black focus:ring-0 focus:bg-white placeholder:text-[#505050]"
+                        className="p-3 rounded-lg w-full bg-dark text-white border-gray-600 focus:border-gray-700 focus:ring-0 placeholder:text-[#505050]"
                         placeholder="Phone number"
                       />
                     </div>
@@ -188,7 +195,7 @@ const ContactSection = () => {
                       {/* <select
                           name="service"
                           id="service"
-                          className="p-3 rounded-lg w-full text-dark border-[#DDDDDD] focus:border-black focus:ring-0 focus:bg-white placeholder:text-[#505050]"
+                          className="p-3 rounded-lg w-full bg-dark text-white border-gray-600 focus:border-gray-700 focus:ring-0 placeholder:text-[#505050]"
                         >
                           <option selected disabled value="">
                             Select one...
@@ -218,7 +225,7 @@ const ContactSection = () => {
                         name="message"
                         id="message"
                         required
-                        className="p-3 rounded-lg w-full text-dark border-[#DDDDDD] focus:border-black focus:ring-0 focus:bg-white placeholder:text-[#505050]"
+                        className="p-3 rounded-lg w-full bg-dark text-white border-gray-600 focus:border-gray-700 focus:ring-0 placeholder:text-[#505050]"
                         placeholder="Type your message..."
                       />
                     </div>

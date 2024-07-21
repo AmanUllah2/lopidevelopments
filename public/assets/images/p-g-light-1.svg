@@ -18,11 +18,11 @@
             <feGaussianBlur stdDeviation="36.6146" result="effect1_foregroundBlur_3_13253"/>
         </filter>
         <linearGradient id="paint0_linear_3_13253" x1="252.624" y1="38.4554" x2="174.375" y2="389.837" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#FED3D4"/>
+            <stop stop-color="#E0EEEE"/>
             <stop offset="1" stop-color="#F1F5F8" stop-opacity="0"/>
         </linearGradient>
         <linearGradient id="paint1_linear_3_13253" x1="345.382" y1="68.5665" x2="267.133" y2="419.948" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#FED3D4"/>
+            <stop stop-color="#E0EEEE"/>
             <stop offset="1" stop-color="#F1F5F8"/>
         </linearGradient>
     </defs>

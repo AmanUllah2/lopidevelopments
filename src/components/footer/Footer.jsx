@@ -67,27 +67,27 @@ const Footer = () => {
                 />
               </Link>
               <ul className="space-y-6 relative z-10">
-                <li>
+                {/* <li>
                   <h6 className="mb-1 font-clash-display font-semibold">
                     Address:
                   </h6>
                   <h6 className="text-white/80">Alberta, Canada</h6>
-                </li>
+                </li> */}
                 <li>
                   <h6 className="mb-1 font-clash-display font-semibold">
                     Contact:
                   </h6>
-                  {/* <a
-                    className="block text-white/80 hover:text-primary transition-colors duration-300"
-                    href="tel:+7802227601"
-                  >
-                    780-222-7601
-                  </a> */}
                   <a
                     className="block text-white/80 hover:text-primary transition-colors duration-300"
-                    href="mailto:contact@aurorainsights.com"
+                    href="tel:+923485421252"
                   >
-                    contact@aurorainsights.com
+                    +92-348-542-1252
+                  </a>
+                  <a
+                    className="block text-white/80 hover:text-primary transition-colors duration-300"
+                    href="mailto:contact@lopidevelopments.com"
+                  >
+                    contact@lopidevelopments.com
                   </a>
                 </li>
                 <li>

@@ -83,7 +83,7 @@ export default function BlurryCursor() {
       <div
         ref={circle}
         style={{
-          backgroundColor: "#FED3D4",
+          backgroundColor: "#E0EEEE",
           width: size,
           height: size,
         }}

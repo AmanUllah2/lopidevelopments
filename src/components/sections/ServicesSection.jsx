@@ -15,7 +15,7 @@ const services = [
     title: "Crafting Minimum Viable Products",
     description:
       "Transform your vision into a functional MVP, ensuring rapid market entry with essential features and reliable performance.",
-    image: "/assets/images/s-image-1.png",
+    image: "/assets/images/s-icon-1.svg",
     alt: "MVP Development",
   },
   {
@@ -23,7 +23,7 @@ const services = [
     title: "Scaling Your Business",
     description:
       "Accelerate growth and expand your operations seamlessly with our tailored scaling solutions, designed for sustainability and efficiency.",
-    image: "/assets/images/s-image-2.png",
+    image: "/assets/images/s-icon-2.svg",
     alt: "Scale Up",
   },
   {
@@ -31,7 +31,7 @@ const services = [
     title: "Comprehensive User Testing",
     description:
       "Enhance user experience through rigorous testing, gathering valuable feedback to refine and perfect your product.",
-    image: "/assets/images/s-image-3.png",
+    image: "/assets/images/s-icon-3.svg",
     alt: "User Testing",
   },
   {
@@ -39,7 +39,7 @@ const services = [
     title: "Innovative UX Design",
     description:
       "Create engaging and intuitive user experiences with our expert UX design services, focused on usability and satisfaction.",
-    image: "/assets/images/s-image-4.png",
+    image: "/assets/images/s-icon-4.svg",
     alt: "UX Design",
   },
   {
@@ -47,7 +47,7 @@ const services = [
     title: "Cutting-Edge Frontend Development",
     description:
       "Develop visually stunning and highly interactive user interfaces with our state-of-the-art frontend development services.",
-    image: "/assets/images/s-image-1.png",
+    image: "/assets/images/s-icon-5.svg",
     alt: "Frontend Development",
   },
   {
@@ -55,7 +55,7 @@ const services = [
     title: "Robust Backend Development",
     description:
       "Ensure your application’s backbone is strong and reliable with our comprehensive backend development solutions.",
-    image: "/assets/images/s-image-2.png",
+    image: "/assets/images/s-icon-6.svg",
     alt: "Backend Development",
   },
   {
@@ -63,7 +63,7 @@ const services = [
     title: "Advanced AI and Machine Learning",
     description:
       "Leverage the power of AI and machine learning to innovate and optimize your business processes, making data-driven decisions.",
-    image: "/assets/images/s-image-3.png",
+    image: "/assets/images/s-icon-7.svg",
     alt: "AI and Machine Learning",
   },
   {
@@ -71,7 +71,7 @@ const services = [
     title: "Blockchain and Cryptocurrency Solutions",
     description:
       "Embrace the future with our blockchain and cryptocurrency services, ensuring secure, transparent, and efficient transactions.",
-    image: "/assets/images/s-image-4.png",
+    image: "/assets/images/s-icon-6.svg",
     alt: "Blockchain and Cryptocurrency",
   },
   {
@@ -86,7 +86,7 @@ const services = [
       "Technical SEO Audits",
       "Content Marketing",
     ],
-    image: "/assets/images/s-image-2.png",
+    image: "/assets/images/s-icon-3.svg",
     alt: "SEO Services",
   },
 ];
@@ -191,10 +191,11 @@ const ServicesSection = () => {
                 <div className="relative">
                   <Image
                     priority
-                    width={1600}
-                    height={1600}
+                    width={300}
+                    height={300}
                     src={service.image}
                     alt={service.alt}
+                    className="object-contain mx-auto"
                   />
                 </div>
               </div>
