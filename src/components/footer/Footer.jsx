@@ -90,7 +90,7 @@ const Footer = () => {
                     contact@lopidevelopments.com
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <div className="flex gap-4">
                     {socialLinks.map((link, index) => (
                       <a
@@ -104,7 +104,7 @@ const Footer = () => {
                       </a>
                     ))}
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

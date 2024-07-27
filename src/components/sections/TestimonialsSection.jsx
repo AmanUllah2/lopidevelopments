@@ -9,23 +9,23 @@ const testimonials = [
   {
     quote:
       "Lopi Tech Agency delivered a top-notch solution that exceeded our expectations. Their team is professional, responsive, and innovative.",
-    name: "John Doe",
-    position: "ABC Corporation",
-    image: "/assets/images/face-1.jpg",
+    // name: "John Doe",
+    // position: "ABC Corporation",
+    // image: "/assets/images/face-1.jpg",
   },
   {
     quote:
       "We were impressed by Lopi's expertise in AI and machine learning. They helped us build a game-changing product that transformed our business.",
-    name: "Jane Smith",
-    position: "XYZ Startups",
-    image: "/assets/images/face-3.jpg",
+    // name: "Jane Smith",
+    // position: "XYZ Startups",
+    // image: "/assets/images/face-3.jpg",
   },
   {
     quote:
       "Lopi's team is highly skilled and dedicated. They worked closely with us to understand our needs and delivered a high-quality solution on time.",
-    name: "Bob Johnson",
-    position: "DEF Agency",
-    image: "/assets/images/face-2.jpg",
+    // name: "Bob Johnson",
+    // position: "DEF Agency",
+    // image: "/assets/images/face-2.jpg",
   },
 ];
 
@@ -89,11 +89,11 @@ const TestimonialsSection = () => {
                       <i>"{testimonial.quote}"</i>
                     </blockquote>
                     <figcaption className="mt-7 flex justify-center items-center gap-x-6">
-                      <img
+                      {/* <img
                         className="h-12 w-12 rounded-full bg-gray-50"
                         src={testimonial.image}
                         alt={testimonial.name}
-                      />
+                      /> */}
                       <div className="text-sm leading-6">
                         <div className="font-semibold font-roboto text-white">
                           {testimonial.name}

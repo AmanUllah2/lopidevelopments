@@ -15,7 +15,7 @@ const services = [
     title: "Crafting Minimum Viable Products",
     description:
       "Transform your vision into a functional MVP, ensuring rapid market entry with essential features and reliable performance.",
-    image: "/assets/images/s-icon-1.svg",
+    image: "/1x/MVP.png",
     alt: "MVP Development",
   },
   {
@@ -23,57 +23,66 @@ const services = [
     title: "Scaling Your Business",
     description:
       "Accelerate growth and expand your operations seamlessly with our tailored scaling solutions, designed for sustainability and efficiency.",
-    image: "/assets/images/s-icon-2.svg",
+    image: "/1x/Scaleup.png",
     alt: "Scale Up",
   },
+  // {
+  //   subTitle: "User Testing",
+  //   title: "Comprehensive User Testing",
+  //   description:
+  //     "Enhance user experience through rigorous testing, gathering valuable feedback to refine and perfect your product.",
+  //   image: "/assets/images/s-icon-3.svg",
+  //   alt: "User Testing",
+  // },
+  // {
+  //   subTitle: "UX Design",
+  //   title: "Innovative UX Design",
+  //   description:
+  //     "Create engaging and intuitive user experiences with our expert UX design services, focused on usability and satisfaction.",
+  //   image: "/assets/images/s-icon-4.svg",
+  //   alt: "UX Design",
+  // },
   {
-    subTitle: "User Testing",
-    title: "Comprehensive User Testing",
+    subTitle: "Web App Development",
+    title: "Cutting-Edge Web App Development",
     description:
-      "Enhance user experience through rigorous testing, gathering valuable feedback to refine and perfect your product.",
-    image: "/assets/images/s-icon-3.svg",
-    alt: "User Testing",
-  },
-  {
-    subTitle: "UX Design",
-    title: "Innovative UX Design",
-    description:
-      "Create engaging and intuitive user experiences with our expert UX design services, focused on usability and satisfaction.",
-    image: "/assets/images/s-icon-4.svg",
-    alt: "UX Design",
-  },
-  {
-    subTitle: "Frontend Development",
-    title: "Cutting-Edge Frontend Development",
-    description:
-      "Develop visually stunning and highly interactive user interfaces with our state-of-the-art frontend development services.",
-    image: "/assets/images/s-icon-5.svg",
+      "Develop visually stunning and highly interactive user interfaces with our state-of-the-art web development services.",
+    image: "/1x/FE.png",
     alt: "Frontend Development",
-  },
-  {
-    subTitle: "Backend Development",
-    title: "Robust Backend Development",
-    description:
-      "Ensure your application’s backbone is strong and reliable with our comprehensive backend development solutions.",
-    image: "/assets/images/s-icon-6.svg",
-    alt: "Backend Development",
-  },
-  {
-    subTitle: "AI and Machine Learning",
-    title: "Advanced AI and Machine Learning",
-    description:
-      "Leverage the power of AI and machine learning to innovate and optimize your business processes, making data-driven decisions.",
-    image: "/assets/images/s-icon-7.svg",
-    alt: "AI and Machine Learning",
   },
   {
     subTitle: "Blockchain and Cryptocurrency",
     title: "Blockchain and Cryptocurrency Solutions",
     description:
       "Embrace the future with our blockchain and cryptocurrency services, ensuring secure, transparent, and efficient transactions.",
-    image: "/assets/images/s-icon-6.svg",
+    image: "/1x/Cryptocurrency.png",
     alt: "Blockchain and Cryptocurrency",
   },
+  {
+    subTitle: "Mobile App development",
+    title: "Mobile App Solutions",
+    description:
+      "Unlock seamless and secure blockchain transactions with our cutting-edge mobile app wallets. Ecommerce apps and many more.",
+    image: "/1x/Support.png",
+    alt: "Blockchain and Cryptocurrency",
+  },
+  // {
+  //   subTitle: "Backend Development",
+  //   title: "Robust Backend Development",
+  //   description:
+  //     "Ensure your application’s backbone is strong and reliable with our comprehensive backend development solutions.",
+  //   image: "/assets/images/s-icon-6.svg",
+  //   alt: "Backend Development",
+  // },
+  {
+    subTitle: "AI and Machine Learning",
+    title: "Advanced AI and Machine Learning",
+    description:
+      "Leverage the power of AI and machine learning to innovate and optimize your business processes, making data-driven decisions.",
+    image: "/1x/AI.png",
+    alt: "AI and Machine Learning",
+  },
+
   {
     subTitle: "SEO Services",
     title: "Expert SEO Services",
@@ -86,7 +95,7 @@ const services = [
       "Technical SEO Audits",
       "Content Marketing",
     ],
-    image: "/assets/images/s-icon-3.svg",
+    image: "/1x/SEO.png",
     alt: "SEO Services",
   },
 ];
@@ -182,17 +191,16 @@ const ServicesSection = () => {
               className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center service-item relative z-20"
             >
               <div
-                className={`col ${
-                  index % 2 !== 0
-                    ? "image-right opacity-0 translate-x-1/2 rotate-12 order-first lg:order-last"
-                    : "image-left  opacity-0 -translate-x-1/2 -rotate-12"
-                }`}
+                className={`col ${index % 2 !== 0
+                  ? "image-right opacity-0 translate-x-1/2 rotate-12 order-first lg:order-last"
+                  : "image-left  opacity-0 -translate-x-1/2 -rotate-12"
+                  }`}
               >
                 <div className="relative">
                   <Image
                     priority
-                    width={300}
-                    height={300}
+                    width={450}
+                    height={450}
                     src={service.image}
                     alt={service.alt}
                     className="object-contain mx-auto"
@@ -200,9 +208,8 @@ const ServicesSection = () => {
                 </div>
               </div>
               <div
-                className={`col ${
-                  index % 2 !== 0 ? "content-right" : "content-left"
-                } opacity-0 translate-y-28`}
+                className={`col ${index % 2 !== 0 ? "content-right" : "content-left"
+                  } opacity-0 translate-y-28`}
               >
                 <div>
                   <h6 className="mb-4 font-bold uppercase text-primary text-sm md:text-base">
