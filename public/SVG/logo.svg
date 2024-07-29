@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-family: Montserrat-Medium, Montserrat;
+        font-size: 188.32px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="356.09" y1="275.51" x2="825.99" y2="926.05" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a894ff"/>
+      <stop offset=".18" stop-color="#a993fb"/>
+      <stop offset=".33" stop-color="#ad90f2"/>
+      <stop offset=".45" stop-color="#b38ce1"/>
+      <stop offset=".57" stop-color="#bd86ca"/>
+      <stop offset=".68" stop-color="#c97fac"/>
+      <stop offset=".79" stop-color="#d87688"/>
+      <stop offset=".9" stop-color="#ea6b5d"/>
+      <stop offset="1" stop-color="#fe5f2c"/>
+      <stop offset="1" stop-color="#ff5f2a"/>
+    </linearGradient>
+  </defs>
+  <circle class="cls-3" cx="547.5" cy="540.5" r="282"/>
+  <text class="cls-4" transform="translate(315.02 602.51)"><tspan class="cls-2" x="0" y="0">L</tspan><tspan x="109.41" y="0">O</tspan><tspan class="cls-1" x="267.6" y="0">P</tspan><tspan x="401.68" y="0">I</tspan></text>
+</svg>
